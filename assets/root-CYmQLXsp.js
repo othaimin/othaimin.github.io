@@ -1,0 +1,10 @@
+import{c as e,d as t,n,o as r,p as i,s as a,t as o,u as s,z as c}from"./jsx-runtime-avg4WIVm.js";import{n as l}from"./lib-tsqUAD5r.js";var u=o(),d=()=>[{rel:`preconnect`,href:`https://fonts.googleapis.com`},{rel:`preconnect`,href:`https://fonts.gstatic.com`,crossOrigin:`anonymous`},{rel:`stylesheet`,href:`https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap`}],f=e(function(){return(0,u.jsx)(`div`,{className:`fixed w-screen h-screen z-[99999] flex items-center justify-center`,children:(0,u.jsx)(`span`,{className:` animate-spin border-4 border-primary size-10 block rounded-full border-t-transparent `})})});function p({children:e}){return(0,u.jsxs)(`html`,{lang:`en`,suppressHydrationWarning:!0,children:[(0,u.jsxs)(`head`,{children:[(0,u.jsx)(`script`,{dangerouslySetInnerHTML:{__html:`
+      (function () {
+         let saved = localStorage.getItem("isLight");
+      let light =
+        saved === "false" ||
+        (saved === null &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches);
+      document.documentElement.classList.toggle("light", light);
+      })();
+    `}}),(0,u.jsx)(`meta`,{charSet:`utf-8`}),(0,u.jsx)(`meta`,{name:`viewport`,content:`width=device-width, initial-scale=1`}),(0,u.jsx)(t,{}),(0,u.jsx)(`meta`,{name:`theme-color`,content:`#3367d6`}),(0,u.jsx)(s,{})]}),(0,u.jsxs)(`body`,{children:[e,(0,u.jsx)(l,{}),(0,u.jsx)(i,{})]})]})}var m=r(function(){return(0,u.jsx)(n,{})}),h=a(function({error:e}){let t=`Oops!`,n=`An unexpected error occurred.`;return c(e)&&(t=e.status===404?`404`:`Error`,n=e.status===404?`The requested page could not be found.`:e.statusText||n),(0,u.jsxs)(`main`,{className:`pt-16 p-4 container mx-auto`,children:[(0,u.jsx)(`h1`,{children:t}),(0,u.jsx)(`p`,{children:n}),void 0]})});export{h as ErrorBoundary,f as HydrateFallback,p as Layout,m as default,d as links};
